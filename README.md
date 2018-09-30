@@ -7,17 +7,42 @@ Design patterns may be viewed as a structured approach to computer programming i
 
 ## List of implementations
 
-* [Creational](Creational)
-* [Structural](Structural)
 * [Behavioral](Behavioral)
+  * [Chain Of Responsibility](Behavioral/ChainOfResponsability)
+  * [Command](Behavioral/Command)
+  * [Iterator](Behavioral/Iterator)
+  * [Null Object](Behavioral/NullObject)
+  * [Observer](Behavioral/Observer)
+  * [State](Behavioral/State)
+  * [Strategy](Behavioral/Strategy)
+  * [Template Method](Behavioral/TemplateMethod)
+  * [Visitor](Behavioral/Visitor)
 * [Concurrency](Concurrency)
+  * [Active Object](Concurrency/Active%20Object)
+* [Creational](Creational)
+  * [Abstract Factory](Creational/Abstract%20Factory)
+  * [Builder](Creational/Builder)
+  * [Dependency Injection](Creational/Dependency%20Injection)
+  * [Factory](Creational/Factory)
+  * [Method Chaining](Creational/Method%20Chaining)
+  * [Prototype](Creational/Prototype)
+  * [Singleton](Creational/Singleton)
+* [Structural](Structural)
+  * [Adapter](Structural/Adapter)
+  * [Bridge](Structural/Bridge)
+  * [Composite](Structural/Composite)
+  * [Decorator](Structural/Decorator)
+  * [Facade](Structural/Facade)
+  * [Proxy](Structural/Proxy)
 
 ## Contribution
  * Contributions are always welcome. Language doesn't matter. Just make sure you're implementing design pattern.
  * PRs are welcome. To begin developing, follow the structure:
 
    > category/design pattern name/language-name/file_name.extension
+   
    e.g
+   
    > Creational/Abstract factory/python/abstract_factory.py
  * Don't forget to add README with explanation how pattern works, when to use and common usage of the pattern.
  * Adding image with UML diagram for design pattern would be very helpfull.
@@ -27,5 +52,10 @@ Design patterns may be viewed as a structured approach to computer programming i
  Curated list of resources dealing with design patterns.
 
  * Books
+   * [Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/gp/product/0596007124/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596007124&linkCode=as2&tag=anjabl-20)
+   * [Elements of Reusable Object-Oriented Software](https://www.amazon.com/gp/product/0201633612/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0201633612&linkCode=as2&tag=anjabl-20)
  * Sites
+   * [Design patterns](http://www.oodesign.com/)
+   * [Geeks for geeks design patterns](http://www.geeksforgeeks.org/software-design-patterns/)
+   * [Source making Design patterns](https://sourcemaking.com/design_patterns)
  * Online classes (Free)
